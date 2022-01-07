@@ -10,9 +10,9 @@ def minOperations(n):
         return 0
     if n % 2 == 0 and n != 2:
         return minOperations(int(n / 2)) + 2
-    elif n % 3 == 0 and n != 3:
+    if n % 3 == 0 and n != 3:
         return minOperations(int(n / 3)) + 3
-    elif n % 5 == 0 and n != 5:
+    f n % 5 == 0 and n != 5:
         return minOperations(int(n / 5)) + 5
     else:
         return int(n)
