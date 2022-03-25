@@ -27,7 +27,6 @@ typedef struct binary_tree_s
 
 /* AVL Tree */
 typedef struct binary_tree_s avl_t;
-typedef struct binary_tree_s binary_tree_t;
 
 /* FUNCTION PROTOTYPES */
 /* function to print binary tree with formatting */
