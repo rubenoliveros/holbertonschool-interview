@@ -9,17 +9,14 @@ def makeChange(coins, total):
     determine the fewest number of coins needed
     to meet a given amount total
     """
-    number_coins = 0
-    cents = 0
     if total <= 0:
         return 0
 
-    coins = sorted(coins, reverse=True)
-
+    coins.sort(reverse=True)
+    count = 0
     for coin in coins:
-        while cents + coin <= total:
-            cents += coin
-            number_coins += 1
-        if cents == total:
-            return number_coins
-    return -1
+        count += total // coin
+        total = total % coin
+    if total:
+        return -1
+    return count
