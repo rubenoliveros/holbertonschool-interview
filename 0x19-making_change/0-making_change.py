@@ -2,8 +2,6 @@
 """
 makeChange method
 """
-
-
 def makeChange(coins, total):
     """
     determine the fewest number of coins needed
