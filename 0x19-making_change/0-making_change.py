@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-makeChange method
+makeChange method 
 """
 def makeChange(coins, total):
     """
-    determine the fewest number of coins needed
-    to meet a given amount total
+    Given a pile of coins of different values, determine the fewest number
+    of coins needed to meet a given amount
     """
     if total <= 0:
         return 0
