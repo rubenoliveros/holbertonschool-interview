@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """ Function to find perimiter of an island """
 
 
