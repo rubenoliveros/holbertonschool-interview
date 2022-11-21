@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-makeChange method 
+makeChange method
 """
+
+
 def makeChange(coins, total):
     """
     Given a pile of coins of different values, determine the fewest number
